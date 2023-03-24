@@ -3,9 +3,9 @@ const Web3 = require('web3');
 const compiledVoting = require('./Build/Voting.json');
 
 const provider = new HDWalletProvider(
-  'fatal seven myth aisle shoulder kind rose giggle nasty rib enact aisle',
+  'Your_Mnemonic',
   // remember to change this to your own phrase!
-  'https://goerli.infura.io/v3/69f06d84671f459dbc70fb6c5d9102ce'
+  'YOUR_INFURA_URL'
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
